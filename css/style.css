@@ -1,0 +1,182 @@
+/* 
+Author: Ali Parsa
+Theme: Order-Food webside
+version:1.0
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+.Main-Contant{
+    
+    background-color: #dddddd;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Style for Footer */
+.Footer{
+    background-color: #ff4757;
+    color: white;
+}
+/* Css For Menu */
+.menu{
+    border-bottom: 2px solid gray;
+}
+.menu  ul li{
+   display: inline;
+   padding: 1%;
+   text-align: center;
+}
+.menu ul li a{
+
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ff4757;
+}
+.menu ul li a:hover{
+    color: #ff6b81;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* Css For MainContant */
+.tbl-30{
+    
+    padding: 3% 1%;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1% 1%;
+    padding: 1%;
+    text-align: center;
+    float: left;
+}
+
+/* Css for Addmin Page */
+.lbl-admin{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 2px solid black;
+    
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    text-align: left;
+}
+.btn-primay{
+    background-color:#1e90ff;
+    text-decoration: none;
+    padding: 1%;
+    color: wheat;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-primay:hover{
+     background-color:#3742fa;
+}
+
+.btn-secondary{
+    background-color:#7bed9f;
+    text-decoration: none;
+    padding: 1%;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color: green;
+    padding: 3%;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-secondary:hover{
+     background-color:#2ed573;
+}
+.btn-danger{
+    background-color:#ff6b81;
+    text-decoration: none;
+    padding: 1%;
+    color: wheat;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-danger:hover{
+     background-color:#ff4757;
+}
+/* add admin part css */
+.tbl-30{
+    width: 30%;
+    
+}
+.add-admin{
+    padding: 3%;
+}
+.success{
+    color:#2ed573;
+    font-weight: bolder;
+    text-align: justify;
+}
+.error{
+    color:#ff4757;
+}
+/* css for login form */
+.login{
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 10% auto;
+    padding: 5%;
+}
+.img-catagory{
+    border-radius: 5px;
+    width :70px;
+    height: 60px;
+}
+#add_food{
+    margin-left: 350px;
+}
+#food_img{
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+#food_describtion{
+    
+float: left;
+text-align: justify;
+
+
+}
+#food_table{
+    width: 110%;
+    
+}
+.tbl_order{
+    border-collapse: collapse;
+    width: 100%;
+}
+.wrapper_order{
+
+    padding: 2%;
+    
+    margin: 0 auto;
+}
+#order_t{
+ padding: 3%;
+ margin: 4px;
+}
